@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!!");
 });
 
+require("./routes/api/schedule");
 // app.use("/api/users", users);
 // app.use("/api/tweets", tweets);
 
@@ -18,3 +19,5 @@ const onListen = () => console.log(`Server is running on port ${port}`);
 
 const port = process.env.PORT || 80;
 app.listen(port, onListen);
+
+module.exports = app;
