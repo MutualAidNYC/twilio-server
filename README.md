@@ -1,3 +1,10 @@
+# This repository has been ARCHIVED. We at MANYC have opted to merge two of our repositories into one.
+
+The newly merged and *current* repository can be found at [mutual aid call center](https://github.com/MutualAidNYC/mutual-aid-call-center)
+
+
+
+
 # twilio-callcenter-server
 
 ![Node.js CI](https://github.com/MutualAidNYC/twilio-server/workflows/Node.js%20CI/badge.svg)
